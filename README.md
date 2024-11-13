@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #18-Building-the-Movies-Component_mp4_7min_18sec ] - Table is created and render all movies list into that table using `.map()` method.
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #19-Deleting-a-Movie_mp4_5min_18sec ] - onClick Event Handler function `handleDelete` is added and onlick of Delete Button clicked movie get deleted from movie list table. 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
