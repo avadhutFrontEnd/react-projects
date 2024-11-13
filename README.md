@@ -1,3 +1,15 @@
+# vidly
+Created `vidly`  React Project with JavaSc using `Class` components.
+
+# Commit message format : 
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #16-Setting-Up-the-Vidly-Project_mp4_5min_38sec  ] - Update the code of `App.js` for `Class` component, added `services` folder and created 2 services `fakeMovieService.js` & `fakeGenreService.js`. 
+
+# my-github Account : 
+https://github.com/avadhutFrontEnd
+
+# code is present on : 
+https://github.com/avadhutFrontEnd/react-projects   --> ==`vidly`== Branch
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
