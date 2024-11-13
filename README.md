@@ -2,13 +2,14 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #16-Setting-Up-the-Vidly-Project_mp4_5min_38sec  ] - 
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #18-Building-the-Movies-Component_mp4_7min_18sec ] - Table is created and render all movies list into that table using `.map()` method.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
 
 # code is present on : 
-https://github.com/avadhutFrontEnd/react-projects   --> ==`vidly`== Branch
+https://github.com/avadhutFrontEnd/react-projects   --> `vidly` Branch
+
 
 # Getting Started with Create React App
 
