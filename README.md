@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #19-Deleting-a-Movie_mp4_5min_18sec ] - onClick Event Handler function `handleDelete` is added and onlick of Delete Button clicked movie get deleted from movie list table. 
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #20-Conditional-Rendering_mp4_3min_26sec ] - if we have at least one movie in the database we have to return a 'Table' along with the 'message'  on the top that indicates the number of movies, otherwise we want to  return a 'message' like 'there are no movies in the database'.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
