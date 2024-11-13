@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #16-Setting-Up-the-Vidly-Project_mp4_5min_38sec  ] - Update the code of `App.js` for `Class` component, added `services` folder and created 2 services `fakeMovieService.js` & `fakeGenreService.js`. 
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #16-Setting-Up-the-Vidly-Project_mp4_5min_38sec  ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
