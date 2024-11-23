@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #3-Pagination-Component-Interface_mp4_03min_47sec ] - we have determined the `interface` for this component.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #4-Pagination-Displaying-Pages_mp4_06min_48sec ] - Now we need to render this "pagination" Dynamically based on the "number of items" i.e `itemsCount` prop and the  "page size" i.e `pageSize` prop.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
