@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing-Components(1h) ] [ Video: #22-Solution-Like-Component_mp4_12min_26sec ] - created `<Like />` component.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #3-Pagination-Component-Interface_mp4_03min_47sec ] - we have determined the `interface` for this component.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
