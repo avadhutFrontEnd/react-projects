@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #20-Conditional-Rendering_mp4_3min_26sec ] - if we have at least one movie in the database we have to return a 'Table' along with the 'message'  on the top that indicates the number of movies, otherwise we want to  return a 'message' like 'there are no movies in the database'.
+[Course: Mastering React 16 > 4-Composing-Components(1h) ] [ Video: #22-Solution-Like-Component_mp4_12min_26sec ] - created `<Like />` component.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
