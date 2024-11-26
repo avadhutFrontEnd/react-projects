@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #4-Pagination-Displaying-Pages_mp4_06min_48sec ] - Now we need to render this "pagination" Dynamically based on the "number of items" i.e `itemsCount` prop and the  "page size" i.e `pageSize` prop.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #5-Pagination-Handling-Page-Changes_mp4_5min_49sec ] - as we click on different pages, we want to highlight that page.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
