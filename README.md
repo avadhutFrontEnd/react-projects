@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #6-Pagination-Paginating-Data_mp4_6min_14sec ] - `paginate data on the client-side :`  as we paginate  the movies or search for them or filter them we want to  create a separate array, that is the array  render here. we have pageSize and the  currentPage. Based on these values, we can paginate the data. create new 'utils' called `paginate.js` and  this is  how we can 'paginate data on the client-side'.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #7-Pagination-Type-Checking-with-PropTypes_mp4_4min_56sec ] - as you build components, especially `reusable-components`, it's a good practice to use `PropTypes` to  catch bugs related to type checking
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
