@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #5-Pagination-Handling-Page-Changes_mp4_5min_49sec ] - as we click on different pages, we want to highlight that page.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #6-Pagination-Paginating-Data_mp4_6min_14sec ] - `paginate data on the client-side :`  as we paginate  the movies or search for them or filter them we want to  create a separate array, that is the array  render here. we have pageSize and the  currentPage. Based on these values, we can paginate the data. create new 'utils' called `paginate.js` and  this is  how we can 'paginate data on the client-side'.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
