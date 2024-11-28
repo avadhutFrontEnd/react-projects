@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #7-Pagination-Type-Checking-with-PropTypes_mp4_4min_56sec ] - as you build components, especially `reusable-components`, it's a good practice to use `PropTypes` to  catch bugs related to type checking
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #9-Filtering-Component-Interface_mp4_5min_32sec ] - Create new `listGroup.jsx` component for `Filtering` functionality  and Defined the "interface" for this new `listGroup.jsx` component.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
