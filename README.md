@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #10-Filtering-Displaying-Items_mp4_3min_57sec ] - create reuseable `<ListGroup />`  component.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #11-Filtering-Default-Props_mp4_2min_06sec ] - Set default props for `<ListGroup />`  component. Add a new Property called 'defaultProps' and 'set it to an object' and assign default-values for props in that Object.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
