@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #11-Filtering-Default-Props_mp4_2min_06sec ] - Set default props for `<ListGroup />`  component. Add a new Property called 'defaultProps' and 'set it to an object' and assign default-values for props in that Object.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #12-Filtering-Handling-Selection_mp4_4min_20sec ] - Add  `onClick` Event on `<ListGroup />`  component, Handle `handleGenreSelect` method in  `<Movies />` component and also whenever we click on a 'genre' add 'active' class on that 'genre'.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
