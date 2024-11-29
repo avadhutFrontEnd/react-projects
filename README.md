@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #9-Filtering-Component-Interface_mp4_5min_32sec ] - Create new `listGroup.jsx` component for `Filtering` functionality  and Defined the "interface" for this new `listGroup.jsx` component.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #10-Filtering-Displaying-Items_mp4_3min_57sec ] - create reuseable `<ListGroup />`  component.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
