@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #15-Sorting-Extracting-MoviesTable_mp4_5min_19sec ] - Seprating high level components and  low level components. 
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #16-Sorting-Raising-the-Sort-Event_mp4_3min_28sec ] - "handle the click event of each of  these table headings" and "raise the sort event".  
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
