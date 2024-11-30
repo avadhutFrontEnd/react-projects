@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #14-Filtering-Adding-All-Genres_mp4_3min_39sec ] - in genre list add new field 'All genres'. 
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #15-Sorting-Extracting-MoviesTable_mp4_5min_19sec ] - Seprating high level components and  low level components. 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
