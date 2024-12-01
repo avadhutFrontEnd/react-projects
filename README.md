@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #19-Sorting-Extracting-TableHeader_mp4_7min_44sec ] -  So we have put the responsibility of determining  the sort order in our `<MoviesTable />` component, and with this if we reuse  this table in multiple places, we don't have to duplicate this logic.  So that's definitely a good improvement.---> But what if you're going to have  a table of customers. With our current implementation,  again we have to duplicate this logic in a component like 'customersTable'. So we need to take this to the next level. We need to extract  a new component, like table header that encapsulates  this logic, and then we can reuse that table header whenever  we have a table. You could have a table of movies, customers, rentals and so on.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #20-Sorting-Extracting-TableBody_mp4_3min_12sec ] - in `<MoviesTable />` component we have the same issue that we had earlier,  we have `mixed levels of abstraction` i.e Seprating high level components and low level components.   
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
