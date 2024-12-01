@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #17-Sorting-Implementing-Sorting_mp4_5min_13sec ] - implementing Sorting (Asc & Desc order) logic in `handleSort` method. 
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #18-Sorting-Moving-Responsibility_mp4_5min_15sec ] - `Refactoring` : Sorting code Refactor --> the problem is that if you  reuse this `<MoviesTable />` component, let's say  on another page, there, when this table raises an event,  you have to duplicate all this logic present inside `handleSort` Method for  determine the sort order, that doesn't make sense ->  technically this logic  belongs to the `<MoviesTable />` component itself, so 'when it  raises the sort event, instead of giving us the path that has  a string, it should give us a sort column object, so we know  what is the path and the current sort order'.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
