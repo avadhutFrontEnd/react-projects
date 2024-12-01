@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #22-Sorting-Unique-Keys-Final_mp4_2min_58sec ] - we're using the `map` method in a couple places. One is for rendering the rows  so here we need to give give each row a unique key.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #23-Sorting-Adding-the-Sort-Icon_mp4_3min_57sec ] - Task : add a sort icon to the current list sorted column. create a new method `renderSortIcon` and we're going to encapsulate all the logic by determining  the icon in this method.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
