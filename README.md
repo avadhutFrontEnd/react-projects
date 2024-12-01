@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #21-Sorting-Rendering-Cell-Content_mp4_8min_02sec ] - Render the content of each td :  1. in the first td we are simply rendering  a property of a "movie" object. 2. But in the last  2 columns we are rendering custom content, such as  a `<Like />` component or a "delete button".
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #22-Sorting-Unique-Keys-Final_mp4_2min_58sec ] - we're using the `map` method in a couple places. One is for rendering the rows  so here we need to give give each row a unique key.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
