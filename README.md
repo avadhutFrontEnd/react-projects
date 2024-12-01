@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #25-Sorting-Extracting-a-Method_mp4_3min_18sec ] - Task : Refactor `<Movies />` component.
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #26-Destructuring-Arguments_mp4_0min_58sec ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
