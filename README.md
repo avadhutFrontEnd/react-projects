@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #20-Sorting-Extracting-TableBody_mp4_3min_12sec ] - in `<MoviesTable />` component we have the same issue that we had earlier,  we have `mixed levels of abstraction` i.e Seprating high level components and low level components.   
+[Course: Mastering React 16 > 5-Pagination_Filtering_and_Sorting(01h47m) ] [ Video: #21-Sorting-Rendering-Cell-Content_mp4_8min_02sec ] - Render the content of each td :  1. in the first td we are simply rendering  a property of a "movie" object. 2. But in the last  2 columns we are rendering custom content, such as  a `<Like />` component or a "delete button".
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
