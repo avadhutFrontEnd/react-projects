@@ -8,7 +8,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 Created `router-app`  React Project with JavaSc using `Class` components To demonstrate `concept of Routing` using `React-Router-DOM` Library.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #3-Adding-Routing_mp4_4min_15sec ] - Implementing `React-Router-DOM` Library.
+[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #4-Switch_mp4_2min_26sec ] - Solution 1: `exact` Attribute Solution 2: `Switch` component.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
