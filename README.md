@@ -8,7 +8,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 Created `router-app`  React Project with JavaSc using `Class` components To demonstrate `concept of Routing` using `React-Router-DOM` Library.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #5-Link_mp4_4min_20sec ] - How  can we turn this 'App' into a `Single Page Application`, so when we click on these  links we don't have a full Reload.
+[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #7-Passing-Props_mp4_2min_35sec ] - Passing Props : Standard Props : `history`, `location`, and `match` and `Custom Props`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
