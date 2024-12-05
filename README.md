@@ -8,7 +8,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 Created `router-app`  React Project with JavaSc using `Class` components To demonstrate `concept of Routing` using `React-Router-DOM` Library.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #7-Passing-Props_mp4_2min_35sec ] - Passing Props : Standard Props : `history`, `location`, and `match` and `Custom Props`.
+[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #8-Route-Parameters_mp4_3min_32sec ] - Pass `Parameters` in our Routes i.e How to pass and retrieve Route parameters.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
