@@ -8,7 +8,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 Created `router-app`  React Project with JavaSc using `Class` components To demonstrate `concept of Routing` using `React-Router-DOM` Library.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #11-Redirects_mp4_3min_06sec ] - use `Redirect` component to redirect the user to a different URL.
+[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #12-Programmatic-Navigation_mp4_2min_20sec ] - `history` object has a bunch of useful methods for Navigation `push` and `replace`. 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
