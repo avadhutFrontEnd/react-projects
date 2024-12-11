@@ -8,7 +8,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 Created `router-app`  React Project with JavaSc using `Class` components To demonstrate `concept of Routing` using `React-Router-DOM` Library.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #9-Optional-Parameters_mp4_2min_06sec ] - When we define `parameters` in our Route, by-default those `parameters` are Required so, How  can we make these `parameters` 'optional'.
+[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #10-Query-String-Parameters_mp4_3min_51sec ] - `Query String` is what we append to a `URL` using a Question Mark.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
