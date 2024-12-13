@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #18-Linking-to-the-MovieForm_mp4_4min_42sec ] - Add "Links" to this `<MoviesTable />` component, here in the array of columns, we need to modify  the first column and introduce the content property,  earlier we used this to render custom  content such as the `like` component  now we want to render a `Link` component.   
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #2-Building-a-Bootstrap-Form_mp4_5min_34sec ] - Building a `login form` : Create New Class-Component called `loginForm.jsx`. 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
