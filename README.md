@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #16-Adding-Routes_mp4_4min_57sec ] - Register our Routes : go to `app.js` and import `<Router />` component from `react-router-dom` and use it.
+[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #17-Adding-the-NavBar_mp4_4min_39sec ] - Create a Functional Component called `navBar.jsx`  
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
