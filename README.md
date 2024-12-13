@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #15-Adding-React-Router_mp4_1min_26sec ] - in `vidly` project, install `react-router-dom` library and Setup `index.js` so, that we can use `react-router-dom` for Routing.
+[Course: Mastering React 16 > 6-Routing(56m) ] [ Video: #16-Adding-Routes_mp4_4min_57sec ] - Register our Routes : go to `app.js` and import `<Router />` component from `react-router-dom` and use it.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
