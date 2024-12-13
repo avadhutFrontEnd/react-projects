@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #2-Building-a-Bootstrap-Form_mp4_5min_34sec ] - Building a `login form` : Create New Class-Component called `loginForm.jsx`. 
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #3-Handling-Form-Submission_mp4_2min ] - By-default HTML forms make a full Round Trip to the Server i.e Full Page Reload. so, we have to prevent this `Default Behavior` using `e.preventDefault`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
