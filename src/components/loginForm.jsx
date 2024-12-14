@@ -2,25 +2,23 @@ import React, { Component } from "react";
 import Input from "./common/input";
 
 class LoginForm extends Component {
-  // Step 1: Create `ref` object --> using  `React.createRef()`
-  username = React.createRef();
-
   state = {
     account: { username: "", password: "" },
+    errors: {}
   };
 
-  // How we can set focus on a given input field
-  // Sol 1 : use `ref` and add a lifecycle hook
-  // componentDidMount() {
-  //   this.username.current.focus();
-  // }
+  validate = () => {
+    return { username: 'Username is required.' };
+  }
 
   handleSubmit = (e) => {
     e.preventDefault();
 
+    const errors = this.validate();
+    this.setState({ errors });
+    if (errors) return;
+
     // Call the server
-    // Step 3:  get the `value` of `input` field Element using "username" Ref :
-    const username = this.username.current.value;
     console.log("Submitted");
   };
 

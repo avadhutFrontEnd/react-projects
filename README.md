@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #8-Extracting-a-Reusable-Input_mp4_3min_57sec ] - Add new File `input.jsx` in `components/common` folder and Create new `Reusable-Component` `<LoginForm />`.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #9-Validation_mp4_2min_56sec ] - Validate upon submitting the form --> `errors` property that includes  all the `errors` in this form. 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
