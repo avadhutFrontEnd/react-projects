@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #6-Handling-Multiple-Inputs_mp4_2min_49sec ] - Set the "property" Dynamically --> currently we are only setting the  "username" property of our `account` object. It doesn't make sense  to  create another handler for the "password" property. So we want to `Set the "property" Dynamically`.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #8-Extracting-a-Reusable-Input_mp4_3min_57sec ] - Add new File `input.jsx` in `components/common` folder and Create new `Reusable-Component` `<LoginForm />`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd

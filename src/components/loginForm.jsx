@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Input from "./common/input";
 
 class LoginForm extends Component {
   // Step 1: Create `ref` object --> using  `React.createRef()`
@@ -36,33 +37,18 @@ class LoginForm extends Component {
       <div>
         <h1>Login</h1>
         <form onSubmit={this.handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="username">Username</label>
-            {/* Step 2: Set the `ref` Attribute on `input` Element  */}
-            <input
-              // How we can set focus on a given input field
-              // Sol 2 : use "autofocus" Attribute
-              // autoFocus
-              value={account.username}
-              onChange={this.handleChange}
-              // ref={this.username}
-              id="username"
-              name="username"
-              type="text"
-              className="form-control"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="password">Password</label>
-            <input
-              value={account.password}
-              onChange={this.handleChange}
-              id="password"
-              name="password"
-              type="text"
-              className="form-control"
-            />
-          </div>
+          <Input
+            name={"username"}
+            value={account.username}
+            label={"Username"}
+            onChange={this.handleChange}
+          />
+          <Input
+            name={"password"}
+            value={account.password}
+            label={"Password"}
+            onChange={this.handleChange}
+          />
           <button className="btn btn-primary">Login</button>
         </form>
       </div>
