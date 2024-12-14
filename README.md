@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #3-Handling-Form-Submission_mp4_2min ] - By-default HTML forms make a full Round Trip to the Server i.e Full Page Reload. so, we have to prevent this `Default Behavior` using `e.preventDefault`.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #4-Refs_mp4_3min_58sec ] - How we should access DOM elements in React ? use `ref` i.e `React.createRef()`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
