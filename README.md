@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #5-Controlled-Elements_mp4_4min_32sec ] - Sync `Input-Field` `value` Attribute with `State` object.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #6-Handling-Multiple-Inputs_mp4_2min_49sec ] - Set the "property" Dynamically --> currently we are only setting the  "username" property of our `account` object. It doesn't make sense  to  create another handler for the "password" property. So we want to `Set the "property" Dynamically`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd

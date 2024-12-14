@@ -5,8 +5,8 @@ class LoginForm extends Component {
   username = React.createRef();
 
   state = {
-    account: { username: '', password: ''}
-  }
+    account: { username: "", password: "" },
+  };
 
   // How we can set focus on a given input field
   // Sol 1 : use `ref` and add a lifecycle hook
@@ -23,14 +23,15 @@ class LoginForm extends Component {
     console.log("Submitted");
   };
 
-  handleChange = (e) => {
+  handleChange = ({ currentTarget: input }) => {
     const account = { ...this.state.account };
-    account.username = e.currentTarget.value;
+    account[input.name] = input.value;
     this.setState({ account });
   };
 
-
   render() {
+    const { account } = this.state;
+
     return (
       <div>
         <h1>Login</h1>
@@ -39,20 +40,28 @@ class LoginForm extends Component {
             <label htmlFor="username">Username</label>
             {/* Step 2: Set the `ref` Attribute on `input` Element  */}
             <input
-            // How we can set focus on a given input field
-            // Sol 2 : use "autofocus" Attribute
+              // How we can set focus on a given input field
+              // Sol 2 : use "autofocus" Attribute
               // autoFocus
-              value={this.state.account.username}
+              value={account.username}
               onChange={this.handleChange}
-              ref={this.username}
+              // ref={this.username}
               id="username"
+              name="username"
               type="text"
               className="form-control"
             />
           </div>
           <div className="form-group">
             <label htmlFor="password">Password</label>
-            <input id="password" type="text" className="form-control" />
+            <input
+              value={account.password}
+              onChange={this.handleChange}
+              id="password"
+              name="password"
+              type="text"
+              className="form-control"
+            />
           </div>
           <button className="btn btn-primary">Login</button>
         </form>
