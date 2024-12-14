@@ -4,6 +4,10 @@ class LoginForm extends Component {
   // Step 1: Create `ref` object --> using  `React.createRef()`
   username = React.createRef();
 
+  state = {
+    account: { username: '', password: ''}
+  }
+
   // How we can set focus on a given input field
   // Sol 1 : use `ref` and add a lifecycle hook
   // componentDidMount() {
@@ -19,6 +23,13 @@ class LoginForm extends Component {
     console.log("Submitted");
   };
 
+  handleChange = (e) => {
+    const account = { ...this.state.account };
+    account.username = e.currentTarget.value;
+    this.setState({ account });
+  };
+
+
   render() {
     return (
       <div>
@@ -30,7 +41,9 @@ class LoginForm extends Component {
             <input
             // How we can set focus on a given input field
             // Sol 2 : use "autofocus" Attribute
-              autoFocus
+              // autoFocus
+              value={this.state.account.username}
+              onChange={this.handleChange}
               ref={this.username}
               id="username"
               type="text"

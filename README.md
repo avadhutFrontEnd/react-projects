@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #4-Refs_mp4_3min_58sec ] - How we should access DOM elements in React ? use `ref` i.e `React.createRef()`.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #5-Controlled-Elements_mp4_4min_32sec ] - Sync `Input-Field` `value` Attribute with `State` object.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
