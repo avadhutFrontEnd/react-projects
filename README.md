@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #11-Displaying-Validation-Errors_mp4_3min_42sec ] -We're going to give the responsibility  of displaying an error message related to this input field to this `<Input />` component.  
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #12-Validation-on-Change_mp4_4min_19sec ] - Create new onChange Event handler function `handleChange` and `validateProperty()`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
