@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #13-Joi_mp4_4min_33sec ] - use `Joi` to implement validation rules.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #14-Validating-a-Form-Using-Joi_mp4_4min_43sec ] - Map Joi's `error` object into State's `error` object.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
