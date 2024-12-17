@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #12-Validation-on-Change_mp4_4min_19sec ] - Create new onChange Event handler function `handleChange` and `validateProperty()`.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #13-Joi_mp4_4min_33sec ] - use `Joi` to implement validation rules.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
