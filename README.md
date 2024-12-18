@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #14-Validating-a-Form-Using-Joi_mp4_4min_43sec ] - Map Joi's `error` object into State's `error` object.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #15-Validating-a-Field-Using-Joi_mp4_5min_22sec ] - Re-implement this `validateProperty()` method and get Rid of these ugly `if` statements.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
