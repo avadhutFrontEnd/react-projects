@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #15-Validating-a-Field-Using-Joi_mp4_5min_22sec ] - Re-implement this `validateProperty()` method and get Rid of these ugly `if` statements.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #16-Disabling-the-Submit-Button_mp4_1min_11sec ] - Disabled login button unless the form is valid.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
