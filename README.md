@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #18-Extracting-a-Reusable-Form_mp4_4min_51sec ] - Extract Re-usable code from `loginForm.jsx` component to `form.jsx` component.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #19-Extracting-Helper-Rendering-Methods_mp4_8min_18sec ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
