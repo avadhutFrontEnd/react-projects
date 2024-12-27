@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #23-Code-Review_mp4_8min_24sec ] - Exercise 2 Solution.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #25-Code-Review_mp4_5min_12sec ] - Exercise 3 Solution.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
