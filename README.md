@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #19-Extracting-Helper-Rendering-Methods_mp4_8min_18sec ] - 
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #20-Register-Form_mp4_1min_42sec ] - Exercise 1 Solution.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
