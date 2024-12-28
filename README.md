@@ -2,7 +2,7 @@
 Created `http-app`  React Project
 
 # Commit message format : 
-[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #1-Introduction_mp4_1min_13sec ] - `http-app`  React Project Set-up.
+[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #3-Http-Clients_mp4_2min_56sec ] - use `Axios` to work with `http-request`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
