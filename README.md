@@ -2,7 +2,7 @@
 Created `http-app`  React Project
 
 # Commit message format : 
-[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #5-Creating-Data_mp4_4min_52sec ] - use `axios.post()` method to post data on server.
+[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #7-Updating-Data_mp4_4min_14sec ] - use `axios.put()` method to UPDATE data.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
