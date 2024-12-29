@@ -2,7 +2,7 @@
 Created `http-app`  React Project
 
 # Commit message format : 
-[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #8-Deleting-Data_mp4_1min_35sec ] - use `axios.delete()` method to DELETE data.
+[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #9-Optimistic-vs-Pessimistic-Updates_mp4_4min_24sec ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
