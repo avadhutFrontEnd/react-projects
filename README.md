@@ -2,7 +2,7 @@
 Created `http-app`  React Project
 
 # Commit message format : 
-[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #10-Expected-vs-Unexpected-Errors_mp4_6min_40sec ] - 
+[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #11-Handling-Unexpected-Errors-Globally_mp4_7min_54sec ] - How to handle `Expected` and `Un-Expected` Errors.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd

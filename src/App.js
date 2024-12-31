@@ -2,6 +2,20 @@ import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
 
+axios.interceptors.response.use(null, (error) => {
+  const expectedError =
+    error.response &&
+    error.response.status >= 400 &&
+    error.response.status < 500;
+
+  if (!expectedError) {
+    console.log("Logging the Error", error);
+    alert("An unexpected error occurred.");
+  }
+
+  return Promise.reject(error);
+});
+
 const apiEndpoint = "https://jsonplaceholder.typicode.com/posts";
 
 class App extends Component {
@@ -11,7 +25,14 @@ class App extends Component {
 
   async componentDidMount() {
     // pending > resolved (success) OR rejected (failure)
-    const { data: posts } = await axios.get(apiEndpoint);
+
+    // URL to Simulate "Excepted" Erros :
+    // await axios.delete(apiEndpoint + "/");
+
+    // URL to Simulate "Un-Excepted" Erros :
+    const { data: posts } = await axios.get("s" + apiEndpoint);
+
+    // const { data: posts } = await axios.get(apiEndpoint);
     this.setState({ posts });
   }
 
@@ -42,21 +63,16 @@ class App extends Component {
     this.setState({ posts });
 
     try {
+      // URL to Simulate "Excepted" Erros :
+      // await axios.delete(apiEndpoint + "/");
+
+      // URL to Simulate "Un-Excepted" Erros :
+      // await axios.delete( 's' + apiEndpoint + "/" + post.id);
+
       await axios.delete(apiEndpoint + "/" + post.id);
-      
     } catch (ex) {
-      // Expected (404: not found, 400: bad request) - CLIENT ERRORS
-      // - Display a specific error message
       if (ex.response && ex.response.status === 404)
         alert("This post has already  been deleted.");
-      else {
-        // Unexpected (network down, server down, db down, bug)
-        // - Log them
-        // - Display a generic and friendly error message
-        console.log("Logging the Error", ex);
-        alert("An unexpected error occurred.");
-      }
-
       this.setState({ posts: originalPosts });
     }
   };
