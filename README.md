@@ -2,7 +2,7 @@
 Created `http-app`  React Project
 
 # Commit message format : 
-[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #12-Extracting-a-Reusable-Http-Service_mp4_3min_43sec ] - in our project, let's add a new folder `services` here we add  a new file, `httpService.js`, now back to our `App.js` module,  let's cut all this "Interceptor" code from here, and move it into our `httpService.js`.
+[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #13-Extracting-a-Config-Module_mp4_1min_36sec ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
