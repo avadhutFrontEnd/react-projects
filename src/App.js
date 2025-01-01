@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { ToastContainer } from "react-toastify";
 import http from "./services/httpService";
 import config from "./config.json";
+import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
 class App extends Component {
@@ -54,7 +56,7 @@ class App extends Component {
       // URL to Simulate "Un-Excepted" Erros :
       // await axios.delete( 's' + apiEndpoint + "/" + post.id);
 
-      await http.delete(config.apiEndpoint + "/" + post.id);
+      await http.delete('s' + config.apiEndpoint + "/" + post.id);
     } catch (ex) {
       if (ex.response && ex.response.status === 404)
         alert("This post has already  been deleted.");
@@ -65,6 +67,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <ToastContainer />
         <button className="btn btn-primary" onClick={this.handleAdd}>
           Add
         </button>
