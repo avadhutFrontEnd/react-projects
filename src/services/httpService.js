@@ -1,4 +1,6 @@
 import axios from "axios";
+import Raven from "raven-js";
+// import * as Sentry from "@sentry/react";
 import { toast } from "react-toastify";
 
 axios.interceptors.response.use(null, (error) => {
@@ -8,12 +10,12 @@ axios.interceptors.response.use(null, (error) => {
     error.response.status < 500;
 
   if (!expectedError) {
-    console.log("Logging the Error", error);
+    Raven.captureException("Logging the Error", error);
     // --> we can  use this "toast" like an "object" :
-    // toast.error("An unexpected error occurred.");
+    toast.error("An unexpected error occurred.");
 
     // --> we can  use this "toast" like an "function" :
-    toast("An unexpected error occurred.");
+    // toast("An unexpected error occurred.");
   }
 
   return Promise.reject(error);
