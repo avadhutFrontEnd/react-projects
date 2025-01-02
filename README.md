@@ -2,7 +2,7 @@
 Created `http-app`  React Project
 
 # Commit message format : 
-[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #15-Logging-Errors_mp4_5min_47sec ] - we use `sentry.io`.
+[Course: Mastering React 16 > 8-Calling Backend Services (2h) ] [ Video: #16-Extracting-a-Logger-Service_mp4_4min_25sec ] -
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
