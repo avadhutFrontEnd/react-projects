@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #29-Refactoring_mp4_2min_30sec ] - Refactoring in `<MovieForm />` component.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #30-Saving-the-Movie_mp4_2min_40sec ] - in `<MovieForm />` component implement Functionalities "update an existing movie" and "create a new movie".
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
