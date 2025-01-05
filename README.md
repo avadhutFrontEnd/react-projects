@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #24-Replacing-FakeGenreService_mp4_3min_23sec ] - Replacing `fakeGenreService.js` with `genreService.js`.
+[Course: Mastering React 16 > 7-Forms(2h) ] [ Video: #25-Replacing-FakeMovieService_mp4_5min_48sec ] - Replacing `fakeMovieService.js` with `movieService.js`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
