@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #3-Submitting-the-Registration-Form_mp4_4min_30sec ] - To do Register a user, Delete a user  or Get information about the user Add new service `userService.js` and use it in `registerForm.jsx` Component.
+[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #4-Handling-Registration-Errors_mp4_1min_58sec ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
