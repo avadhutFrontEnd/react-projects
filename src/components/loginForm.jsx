@@ -3,6 +3,7 @@ import Joi, { log } from "joi-browser";
 import Form from "./common/form";
 import Input from "./common/input";
 import { keys } from "lodash";
+import { login } from "../services/authService";
 
 class LoginForm extends Form {
   state = {
@@ -15,14 +16,13 @@ class LoginForm extends Form {
     password: Joi.string().required().label("Password"),
   };
 
-  doSubmit = () => {
+  doSubmit = async () => {
     // Call the server
-    console.log("Submitted");
+    const { data } = this.state;
+    await login(data.username, data.password);
   };
 
   render() {
-    
-
     return (
       <div>
         <h1>Login</h1>
