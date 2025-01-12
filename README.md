@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #8-Storing-the-JWT_mp4_3min_04sec ] - Write `JSON Web Token` Storing Logic in `doSubmit` Method of `loginForm.jsx` Component.  
+[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #9-Logging-in-the-User-upon-Registration_mp4_5min_37sec ] - in  `registerForm` component : read custom-header `x-auth-token` i.e `JSON Web Token` and store it in Local-Storage.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
