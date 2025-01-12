@@ -1,8 +1,8 @@
-# vidly
+# vidly 
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #9-Logging-in-the-User-upon-Registration_mp4_5min_37sec ] - in  `registerForm` component : read custom-header `x-auth-token` i.e `JSON Web Token` and store it in Local-Storage.
+[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #11-Getting-the-Current-User_mp4_4min_18sec ] - In `App.js` component inside `componentDidMount` : get our "JSON Web Token" from the local storage, decode it to get the current user, and then we'll update the "state" and send this state i.e user to `navBar.jsx`.    
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
