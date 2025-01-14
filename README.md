@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #13-Logging-out-a-User_mp4_2min_44sec ] - add new component `logout.jsx`. 
+[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #14-Refactoring_mp4_10min_03sec ] - Component `App.js`, `loginForm.jsx `, `logout.jsx`, `registerForm.jsx`,  `authService.js` Updated.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd

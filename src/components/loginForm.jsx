@@ -3,7 +3,7 @@ import Joi, { log } from "joi-browser";
 import Form from "./common/form";
 import Input from "./common/input";
 import { keys } from "lodash";
-import { login } from "../services/authService";
+import auth from "../services/authService";
 
 class LoginForm extends Form {
   state = {
@@ -20,8 +20,7 @@ class LoginForm extends Form {
     // Call the server
     try {
       const { data } = this.state;
-      const { data: jwt } = await login(data.username, data.password);
-      localStorage.setItem("token", jwt);
+      await auth.login(data.username, data.password);
       // this.props.history.push('/');
       window.location = "/";
     } catch (ex) {
