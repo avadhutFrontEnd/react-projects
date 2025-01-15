@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #16-Fixing-Bi-directional-Dependencies_mp4_2min_43sec ] - `httpService.js` and `authService.js` Updated.   
+[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #18-Showing-or-Hiding-Elements-based-on-the-User_mp4_2min_40sec ] - `App.js` and `movies.jsx` Component Updated.   
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
