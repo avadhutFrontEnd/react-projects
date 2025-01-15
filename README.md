@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #19-Protecting-Routes_mp4_2min_50sec  ] - `App.js` Component Updated.   
+[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #20-Extracting-ProtectedRoute_mp4_5min_55sec  ] - add new Component `protectedRoute.jsx`   
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
