@@ -2,7 +2,7 @@
 Created `vidly`  React Project with JavaSc using `Class` components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 9-Authentication and Authorization(1h) ] [ Video: #23-Hiding-the-Delete-Column_mp4_4min_19sec ] - 
+[Course: Mastering React 16 > 10-Deployment (33m) ] [ Video: #2-Environment-Variables_mp4_4min_58sec ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
