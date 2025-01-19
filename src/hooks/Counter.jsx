@@ -1,18 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Fragment } from "react";
 
 function Counter(props) {
   const [count, setState] = useState(0);
   const [name, setName] = useState("");
-  
-// ******* Note :  don't call "Hooks" inside Loops, conditions, or Nested-Functions
-//   if (count == 0) {
-//     const [name, setName] = useState("");
-//   }
 
-  //   const array = useState(0);
-  //   const count = array[0]; // this.state.count
-  //   const setState = array[1]; // this.setState()
+  useEffect(() => {
+    document.title = `${name} has clicked ${count} times!`;
+
+    return () => {
+      // any code that we previously wrote in "componentWillUnmount" would end up here
+      console.log("Clean up");
+    };
+  }, [count, name]);
 
   return (
     <Fragment>
