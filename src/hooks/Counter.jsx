@@ -1,18 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { Fragment } from "react";
+import React, { useState, Fragment } from "react";
+import useDocumentTitle from "./useDocumentTitle";
 
 function Counter(props) {
   const [count, setState] = useState(0);
   const [name, setName] = useState("");
 
-  useEffect(() => {
-    document.title = `${name} has clicked ${count} times!`;
-
-    return () => {
-      // any code that we previously wrote in "componentWillUnmount" would end up here
-      console.log("Clean up");
-    };
-  }, [count, name]);
+  useDocumentTitle(`${name} has clicked ${count} times!`);
 
   return (
     <Fragment>

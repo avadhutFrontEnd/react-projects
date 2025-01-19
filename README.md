@@ -2,7 +2,7 @@
 Created `react-advanced`  React Project.
 
 # Commit message format : 
-[Course: Mastering React 16 > 11-Advanced Topics (1h) ] [ Video: #8-The-useEffect-Hook_mp4_5min_46sec ] - Understanding the concept of `useEffect` Hook in `#_Functional_Components_` and also, add new Component : `Counter.jsx` Which shows How to manage `useEffect` in `#_Functional_Components_`. 
+[Course: Mastering React 16 > 11-Advanced Topics (1h) ] [ Video: #9-Custom-Hooks_mp4_3min_04sec ] - 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd
