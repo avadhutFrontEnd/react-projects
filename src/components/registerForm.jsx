@@ -20,8 +20,11 @@ class RegisterForm extends Form {
     // Call the server
     try {
       const response = await userService.register(this.state.data);
-      // console.log(response);
-      auth.loginWithJwt(response.headers["x-auth-token"]);
+      // Get token from response header (axios lowercases header names)
+      const token = response.headers["x-auth-token"] || response.headers["X-Auth-Token"];
+      if (token) {
+        auth.loginWithJwt(token);
+      }
       // this.props.history.push("/");
       window.location = "/";
     } catch (ex) {
@@ -35,14 +38,28 @@ class RegisterForm extends Form {
 
   render() {
     return (
-      <div>
-        <h1>Register</h1>
-        <form onSubmit={this.handleSubmit}>
-          {this.renderInput("username", "Username")}
-          {this.renderInput("password", "Password", "password")}
-          {this.renderInput("name", "Name")}
-          {this.renderButton("Register")}
-        </form>
+      <div style={{ maxWidth: "500px", margin: "60px auto", padding: "40px" }}>
+        <div className="card" style={{ padding: "40px" }}>
+          <h1 style={{ color: "var(--text-primary)", marginBottom: "30px", textAlign: "center" }}>
+            Register
+          </h1>
+          <form onSubmit={this.handleSubmit}>
+            {this.renderInput("username", "Email")}
+            {this.renderInput("password", "Password", "password")}
+            {this.renderInput("name", "Name")}
+            <div style={{ marginTop: "24px" }}>
+              {this.renderButton("Register")}
+            </div>
+            <div style={{ marginTop: "20px", textAlign: "center" }}>
+              <p style={{ color: "var(--text-secondary)" }}>
+                Already have an account?{" "}
+                <a href="/login" style={{ color: "var(--accent-primary)" }}>
+                  Login here
+                </a>
+              </p>
+            </div>
+          </form>
+        </div>
       </div>
     );
   }

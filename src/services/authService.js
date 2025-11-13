@@ -13,14 +13,17 @@ export async function login(email, password) {
     password,
   });
   localStorage.setItem(tokenKey, jwt);
+  http.setJwt(jwt);
 }
 
 export function loginWithJwt(jwt) {
   localStorage.setItem(tokenKey, jwt);
+  http.setJwt(jwt);
 }
 
 export function logout() {
   localStorage.removeItem(tokenKey);
+  http.setJwt(null);
 }
 
 export function getCurrentUser() {

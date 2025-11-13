@@ -72,16 +72,32 @@ class MovieForm extends Form {
   };
 
   render() {
+    const movieId = this.props.match.params.id;
+    const isNew = movieId === "new";
+
     return (
-      <div>
-        <h1>Movie Form</h1>
-        <form onSubmit={this.handleSubmit}>
-          {this.renderInput("title", "Title")}
-          {this.renderSelect("genreId", "Genre", this.state.genres)}
-          {this.renderInput("numberInStock", "Number in Stock", "number")}
-          {this.renderInput("dailyRentalRate", "Rate")}
-          {this.renderButton("Save")}
-        </form>
+      <div style={{ maxWidth: "600px", margin: "40px auto", padding: "20px" }}>
+        <div className="card" style={{ padding: "40px" }}>
+          <h1 style={{ color: "var(--text-primary)", marginBottom: "30px" }}>
+            {isNew ? "New Movie" : "Edit Movie"}
+          </h1>
+          <form onSubmit={this.handleSubmit}>
+            {this.renderInput("title", "Title")}
+            {this.renderSelect("genreId", "Genre", this.state.genres)}
+            {this.renderInput("numberInStock", "Number in Stock", "number")}
+            {this.renderInput("dailyRentalRate", "Daily Rental Rate", "number")}
+            <div style={{ marginTop: "24px", display: "flex", gap: "12px" }}>
+              {this.renderButton("Save")}
+              <button
+                type="button"
+                className="btn btn-outline-primary"
+                onClick={() => this.props.history.push("/movies")}
+              >
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     );
   }

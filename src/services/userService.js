@@ -10,3 +10,7 @@ export function register(user) {
     name: user.name,
   });
 }
+
+export function getCurrentUser() {
+  return http.get(apiEndpoint + "/me");
+}

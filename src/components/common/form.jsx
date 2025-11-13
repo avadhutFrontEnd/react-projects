@@ -87,6 +87,33 @@ class Form extends Component {
     );
   }
 
+  renderCheckbox(name, label) {
+    const { data, errors } = this.state;
+
+    return (
+      <div className="form-group">
+        <div className="form-check">
+          <input
+            className="form-check-input"
+            type="checkbox"
+            name={name}
+            id={name}
+            checked={data[name] || false}
+            onChange={(e) => {
+              const data = { ...this.state.data };
+              data[name] = e.target.checked;
+              this.setState({ data });
+            }}
+          />
+          <label className="form-check-label" htmlFor={name}>
+            {label}
+          </label>
+        </div>
+        {errors[name] && <div className="alert alert-danger">{errors[name]}</div>}
+      </div>
+    );
+  }
+
 }
 
 export default Form;

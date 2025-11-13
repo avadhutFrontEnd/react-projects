@@ -1,70 +1,110 @@
 import * as genresAPI from "./fakeGenreService";
 
+// Movies from API - matching exact database entries
 const movies = [
   {
-    _id: "5b21ca3eeb7f6fbccd471815",
-    title: "Terminator",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
-    numberInStock: 6,
-    dailyRentalRate: 2.5,
-    publishDate: "2018-01-03T19:04:28.809Z",
-    liked: true
+    _id: "6777fb0eef2e9cc3d45406d5",
+    title: "The Hangover+",
+    genre: { _id: "6777fb0eef2e9cc3d45406da", name: "Action" },
+    numberInStock: 28,
+    dailyRentalRate: 6
+    // No matching image - will use placeholder
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471816",
-    title: "Die Hard",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
-    numberInStock: 5,
-    dailyRentalRate: 2.5
-  },
-  {
-    _id: "5b21ca3eeb7f6fbccd471817",
-    title: "Get Out",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
-    numberInStock: 8,
-    dailyRentalRate: 3.5
-  },
-  {
-    _id: "5b21ca3eeb7f6fbccd471819",
-    title: "Trip to Italy",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
-    numberInStock: 7,
-    dailyRentalRate: 3.5
-  },
-  {
-    _id: "5b21ca3eeb7f6fbccd47181a",
-    title: "Airplane",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
-    numberInStock: 7,
-    dailyRentalRate: 3.5
-  },
-  {
-    _id: "5b21ca3eeb7f6fbccd47181b",
+    _id: "6777fb0eef2e9cc3d45406d7",
     title: "Wedding Crashers",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
-    numberInStock: 7,
-    dailyRentalRate: 3.5
+    genre: { _id: "6777fb0eef2e9cc3d45406d1", name: "Comedy" },
+    numberInStock: 15,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181e",
-    title: "Gone Girl",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
-    numberInStock: 7,
-    dailyRentalRate: 4.5
+    _id: "6777fb0eef2e9cc3d45406dc",
+    title: "Die Hard",
+    genre: { _id: "6777fb0eef2e9cc3d45406da", name: "Action" },
+    numberInStock: 5,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181f",
-    title: "The Sixth Sense",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
-    numberInStock: 4,
-    dailyRentalRate: 3.5
+    _id: "6777fb0eef2e9cc3d45406de",
+    title: "Terminator",
+    genre: { _id: "6777fb0eef2e9cc3d45406da", name: "Action" },
+    numberInStock: 9,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471821",
+    _id: "6777fb0eef2e9cc3d45406e0",
     title: "The Avengers",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
-    numberInStock: 7,
-    dailyRentalRate: 3.5
+    genre: { _id: "6777fb0eef2e9cc3d45406da", name: "Action" },
+    numberInStock: 15,
+    dailyRentalRate: 2,
+    image: "the-avenger.jpg" // Matches available image
+  },
+  {
+    _id: "6777fb0eef2e9cc3d45406e5",
+    title: "The Notebook",
+    genre: { _id: "6777fb0eef2e9cc3d45406e3", name: "Romance" },
+    numberInStock: 5,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
+  },
+  {
+    _id: "6777fb0eef2e9cc3d45406e7",
+    title: "When Harry Met Sally",
+    genre: { _id: "6777fb0eef2e9cc3d45406e3", name: "Romance" },
+    numberInStock: 10,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
+  },
+  {
+    _id: "6777fb0eef2e9cc3d45406e9",
+    title: "Pretty Woman",
+    genre: { _id: "6777fb0eef2e9cc3d45406e3", name: "Romance" },
+    numberInStock: 15,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
+  },
+  {
+    _id: "6777fb0eef2e9cc3d45406ee",
+    title: "The Sixth Sense",
+    genre: { _id: "6777fb0eef2e9cc3d45406ec", name: "Thriller" },
+    numberInStock: 5,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
+  },
+  {
+    _id: "6777fb0eef2e9cc3d45406f0",
+    title: "Gone Girl",
+    genre: { _id: "6777fb0eef2e9cc3d45406ec", name: "Thriller" },
+    numberInStock: 10,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
+  },
+  {
+    _id: "6777fb0eef2e9cc3d45406f2",
+    title: "The Others",
+    genre: { _id: "6777fb0eef2e9cc3d45406ec", name: "Thriller" },
+    numberInStock: 15,
+    dailyRentalRate: 2
+    // No matching image - will use placeholder
+  },
+  {
+    _id: "677a9a7ed55f0f5920b70321",
+    title: "Avadhut's Movie",
+    genre: { _id: "6777fb0eef2e9cc3d45406da", name: "Action" },
+    numberInStock: 55,
+    dailyRentalRate: 10
+    // No matching image - will use placeholder
+  },
+  {
+    _id: "677aaa0ed55f0f5920b70454",
+    title: "Last Movie 8 Chapter",
+    genre: { _id: "6777fb0eef2e9cc3d45406e3", name: "Romance" },
+    numberInStock: 34,
+    dailyRentalRate: 6
+    // No matching image - will use placeholder
   }
 ];
 
