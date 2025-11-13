@@ -5,6 +5,7 @@ import Input from "./common/input";
 import { keys } from "lodash";
 import auth from "../services/authService";
 import { Redirect } from "react-router-dom";
+import { toast } from "react-toastify";
 
 class LoginForm extends Form {
   state = {
@@ -22,14 +23,41 @@ class LoginForm extends Form {
     try {
       const { data } = this.state;
       await auth.login(data.username, data.password);
-      // this.props.history.push('/');
+      
+      // Update user state immediately via callback
+      if (this.props.onLogin) {
+        this.props.onLogin();
+      }
+      
+      // Also trigger custom event as backup
+      window.dispatchEvent(new Event("userLogin"));
+      
+      // Use React Router navigation - force update by navigating
       const { state } = this.props.location;
-      window.location = state ? state.from.pathname : "/";
+      const redirectPath = state && state.from ? state.from.pathname : "/movies";
+      
+      // Navigate immediately - the history listener will update user state
+      this.props.history.push(redirectPath);
     } catch (ex) {
-      if (ex.response && ex.response.status === 400) {
-        const errors = { ...this.state.errors };
-        errors.username = ex.response.data;
-        this.setState({ errors });
+      if (ex.response) {
+        const status = ex.response.status;
+        const errorMessage = ex.response.data?.error || ex.response.data;
+        
+        if (status === 403) {
+          // Handle pending/revoked users
+          const errors = { ...this.state.errors };
+          errors.username = errorMessage;
+          this.setState({ errors });
+          toast.error(errorMessage);
+        } else if (status === 400) {
+          const errors = { ...this.state.errors };
+          errors.username = errorMessage;
+          this.setState({ errors });
+        } else {
+          toast.error("Login failed. Please check your credentials.");
+        }
+      } else {
+        toast.error("Login failed. Please try again.");
       }
     }
   };

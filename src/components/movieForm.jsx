@@ -40,7 +40,10 @@ class MovieForm extends Form {
   async populateMovie() {
     try {
       const movieId = this.props.match.params.id;
-      if (movieId === "new") return;
+      // Check if this is the "new" route (no id param) or if id is "new"
+      if (!movieId || movieId === "new" || this.props.match.path === "/movies/new") {
+        return;
+      }
 
       const { data: movie } = await getMovie(movieId);
       this.setState({ data: this.mapToViewModel(movie) });
@@ -73,7 +76,8 @@ class MovieForm extends Form {
 
   render() {
     const movieId = this.props.match.params.id;
-    const isNew = movieId === "new";
+    // Check if this is the "new" route (no id param) or if id is "new"
+    const isNew = !movieId || movieId === "new" || this.props.match.path === "/movies/new";
 
     return (
       <div style={{ maxWidth: "600px", margin: "40px auto", padding: "20px" }}>

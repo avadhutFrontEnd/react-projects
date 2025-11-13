@@ -22,8 +22,9 @@ const AdminRoute = ({ path, component: Component, render, ...rest }) => {
           );
         }
 
-        // Then check if user is admin
-        if (!user.isAdmin) {
+        // Then check if user is admin (check both isAdmin flag and role)
+        const isAdmin = user.isAdmin || user.role === "Admin" || user.role === "SuperAdmin";
+        if (!isAdmin) {
           toast.error("Access denied. Admin privileges required.");
           return <Redirect to="/" />;
         }

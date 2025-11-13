@@ -54,6 +54,11 @@ const NavBar = ({ user }) => {
                 Add Movie
               </NavLink>
             )}
+            {user && (user.isAdmin || user.role === "Admin" || user.role === "SuperAdmin") && (
+              <NavLink className="nav-item nav-link" to="/users">
+                User Management
+              </NavLink>
+            )}
           </div>
           <div className="navbar-nav ml-auto d-flex align-items-center">
             <div className="nav-item mr-3" style={{ cursor: "pointer" }}>
